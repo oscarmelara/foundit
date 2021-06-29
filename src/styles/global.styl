@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:700&display=swap')
+@import url('https://fonts.googleapis.com/css?family=Montserrat:400,600,700&display=swap')
+
+*
+  outline none !important
+  &:disabled
+    &:hover
+      cursor not-allowed
+
+.acc-foundit-title
+  color texto-gris
+  margin 3rem auto 2rem auto
+  Mbold(1.3125rem)
+  width 75%
+  +below(600px)
+    width 100%
+.acc-foundit
+  border none !important
+  *
+    border none !important
+    box-shadow none !important
+    outline none !important
+  header
+    border-radius 35px !important
+    padding 0.7rem 2.5rem !important
+    button
+      background-color transparent !important
+      color texto-gris !important
+      Mbold(1.0625rem)
+      relative top left
+      text-align left
+      img
+        absolute top 7px right
+      &:hover
+        color texto-gris !important
+      .arrow-b
+        display none
+      .arrow-t
+        display inline-block
+      &.collapsed
+        .arrow-b
+          display inline-block
+        .arrow-t
+          display none
+  .body-acc
+    p
+      color texto-gris
+      Mbold(0.8125rem)
+    ol
+      li
+        color texto-gris
+        Mregular(0.75rem)
+
+.input-foundit
+  background-color transparent
+  border none
+  border-bottom 1px solid
+  margin 5px 0
+  Mbold(0.83rem)
+  padding 10px 0
+  transition all 0.3s linear
+  width 100%
+  &:focus
+    border-bottom 1px solid
+    transition all 0.3s linear
+  &::placeholder
+    Mregular(0.83rem)
+
+.btn.btn-foundit
+  background-color texto-gris
+  color blanco
+  &:hover
+    color blanco
+
+.btn.btn-outline-foundit
+  border-color texto-gris2
+  color texto-gris2
+  &:hover
+    color texto-gris2
+
+.btn.btn-outline-foundit-white
+  border-color blanco
+  border-width 2px
+  color blanco
+  &:hover
+    color blanco
+
+.btn.btn-outline-foundit-gray
+  border-color texto-gris
+  border-width 2px
+  color texto-gris
+  &:hover
+    color texto-gris
+
+.btn.btn-acc
+  background-color transparent !important
+  color texto-gris
+  &:hover
+    color texto-gris !important
+
+
+// backgrounds
+.bgw
+  background-color white

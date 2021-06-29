@@ -1,0 +1,24 @@
+{
+  "defaultSeverity": "error",
+  "jsRules": {},
+  "rules": {
+    "indent": [
+      true,
+      "spaces",
+      2
+    ],
+    "no-console": true,
+    "semicolon": [
+      true,
+      "never"
+    ],
+    "prefer-object-spread": true
+  },
+  "rulesDirectory": [],
+  "linterOptions": {
+    "exclude": [
+      "config/**/*.js",
+      "node_modules/**/*.ts"
+    ]
+  }
+}
